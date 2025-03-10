@@ -29,5 +29,4 @@ EXEMPLO
 01111000 ~(~0 << n) << (p - n + 1)
 addddaaa ~(~0 << n) << (p - n + 1) ^ x
 return addddaaa
-
 */
