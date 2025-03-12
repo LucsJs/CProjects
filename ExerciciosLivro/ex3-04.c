@@ -3,25 +3,26 @@ Escrever uma função que itob(n, s, b) que tranforma um inteiro em um
 outro número na base b na cadeia s. só servindo para números positivos
 */
 
-#include <stdio.h>
 #include <string.h>
+#include <stdio.h>
 
 void itob(int, char[], int);
 void inverte(char[]);
 
 int main() {
+	int n = 69;
+	char s[20];
+	itob(n, s, 2);
+	printf("%s\n", s);
+	itob(n, s, 8);
+	printf("%s\n", s);
+	itob(n, s, 10);
+	printf("%s\n", s);
+	itob(n, s, 16);
+	printf("%s\n", s);
+	itob(n, s, 24);
+	printf("%s\n", s);
 	
-	char s[10];
-	itob(23, s, 2);
-	printf("%s\n", s);
-	itob(23, s, 8);
-	printf("%s\n", s);
-	itob(23, s, 10);
-	printf("%s\n", s);
-	itob(23, s, 16);
-	printf("%s\n", s);
-	itob(23, s, 20);
-	printf("%s\n", s);
 	
 	return 0;
 }
@@ -29,7 +30,7 @@ int main() {
 void itob(int n, char s[], int b) { // Usarei o método das divisões sucessivas
 	int resto;
 	int divInt;
-	int i;
+	int i = 0;
 	
 	do {
 		resto = n % b;
@@ -59,3 +60,7 @@ void inverte(char s[]) {
 		s[j--] = aux;
 	}
 }
+
+
+
+
