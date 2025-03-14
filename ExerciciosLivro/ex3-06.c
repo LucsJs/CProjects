@@ -40,7 +40,7 @@ void inverte(char[]);
 
 int main() {
 	
-	char s[] = "oioi";
+	char s[25];
 	atoi(0, s);
 	printf("%s", s);
 	
