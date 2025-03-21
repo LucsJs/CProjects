@@ -5,7 +5,7 @@ de assuntos do próprio capítulo.
 	O 1º capítulo trata de uma introdução e passa superficialmente por todos os temas do livro.
 Por isso os exercícios deste capítulo são os mais diversos(ainda não há questões resolvidas deste capítulo).
 
-	O 2º capítulo vai tratar de variáveis e operações, sejam elas aritméticas, lógicas, relacionais, 
+	O 2º capítulo vai tratar de operações, sejam elas aritméticas, lógicas, relacionais, 
 bit a bit, etc.
 
 	O 3º capítulo aborda as estruturas de controle como, if-else, if-else if, while, for, etc.
