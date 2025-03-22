@@ -59,7 +59,7 @@ double atof(char s[]) {
 	
 }
 
-double pot(int base, int exp) {
+double pot(int base, int exp) { // em caso 0 ^ 0 retorna 1
 	
 	if (exp < 0) {
 		return 1.0 / pot(base, exp * -1);
